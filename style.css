@@ -1,0 +1,401 @@
+/*  google front  */
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap'); 
+
+/*  Google front end  */
+
+/*  default css start------------ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+
+}
+.container{
+    width: 1280px;
+    margin: auto;
+}
+
+/*  default css end ------------ */
+
+
+
+
+/* hero section css start-------- */
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(to right, rgba(21, 21, 22, 0.7), rgba(21, 21, 22, 0.7)) ,url("./img/Untitled\ design\ \(1\).jpg");
+    background-size: cover;
+     
+}
+
+/* .dark-overlay{
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+} */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    color: white;
+    font-size: 32px;
+    letter-spacing: 2px;
+    padding-top: 20px;
+}
+.logo span{
+    color: #f90044;
+}
+
+/*  nav-mani css  */
+nav ul li{
+    display: inline-block;
+    padding: 10px 20px ;
+}
+nav ul li a{
+    color: whitesmoke;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: .4s ;
+}
+nav ul li a:hover{
+    color: #f90044;
+}
+.btn{
+    background-color: #f90044;
+    color: whitesmoke;
+    padding: 10px 20px ;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+/*  nav manu css end  */
+
+/*  content-section */
+.content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.content h2 {
+    color: whitesmoke;
+    margin: 20px 0px 20px;
+    font-size: 60px;
+
+}
+.content h2 span{
+    color: #f90044;
+    
+}
+
+.content h3{
+    color: whitesmoke;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.content h4{
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 12px 100px 10px 10px;
+    border: 2px solid #f90044 ;
+    outline: none;
+    border-radius: 25px;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: #f90044;
+    color: whitesmoke;
+   
+    top: 3px;
+    right: 4px;
+}
+marquee{
+    margin-top: 20px;
+    color: #f90044;
+    font-size: 25px;
+}
+
+/*  content-section */
+
+/* hero section css end -------- */
+
+/*  about section css start ---------*/
+
+.about{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #191919;
+}
+.about img{
+    width: 430px;
+   height: auto;
+}
+.about-text{
+    width: 550px;
+    margin-left: 40px;
+
+}
+.main{
+    display: flex;
+    max-width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.main img{
+    border-radius: 10px;
+}
+.about-text h1{
+    color: whitesmoke;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: whitesmoke;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.about-text h5 span{
+    color: #f90044;
+}
+.about-text p{
+    color:#fcfc;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+.btn-b{
+    background-color: #f90044;
+    color: whitesmoke;
+    padding: 10px 20px ;
+    border: 2px solid transparent;
+    border-radius: 20px; 
+    margin-bottom: 25px;
+    margin-top: 20px;
+    display: inline-block;
+}
+/*  about section css end  ---------*/
+.portfolio{
+    background-color: #0d0b0b;
+    width: 100%;
+    padding: 100px 0 ;
+}
+.portfolio-title h2 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 60px;
+}
+hr{
+    margin: 30px 0;
+}
+.portfolio-main{
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    margin: 30px 0;
+    margin-left: 10px;
+}
+.portfolio-img{
+    margin: 20px;
+}
+.portfolio-img img {
+    border-radius: 10px;
+    max-width: 100%;
+    width: 400px;
+    transition: transform .4s;
+
+}
+.portfolio-img img:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+/*  serice css start -------------*/
+.service{
+    background-color: #101010;
+    width: 100%;
+    padding: 100px 0 ;
+}
+.service-title{
+
+}
+.service-title h2{
+    color: whitesmoke;
+    font-size: 70px;
+    text-align: center;
+}
+
+.service-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    margin: 30px 0;
+}
+.card{
+    height: 365px;
+    width: 355px;
+    padding:20px 36px ;
+    background-color: #191919;
+    border-radius: 20px;
+    margin: 14px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+.card i{
+    display: block;
+    font-size: 40px;
+    color: #f90044;
+    margin-bottom: 20px;
+    margin: 25px 0;
+}
+.card h5{
+    color: whitesmoke;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.card p{
+    color: #fcfc;
+letter-spacing: 1px;
+line-height: 25px;
+margin: 15px 0;
+}
+.btn-b{
+    background-color: #f90044;
+    color: whitesmoke;
+    padding: 10px 20px ;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    margin: 15px 0;
+    display: inline-block;
+    margin-top: 5px;
+    transition: transform .4s;
+}
+
+.btn-b:hover{
+    transform: scale(1.2);
+}
+/*  serice css start -------------*/
+
+/*  hire me section css start------- */
+.hire-me{
+  
+    width: 100%;
+    height: 250px;
+    display: flex;
+    background-color: #191919;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.hire-me h6{
+    color: whitesmoke;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+.btn-b-3{
+    background-color: #f90044;
+    color: whitesmoke;
+    padding: 10px 20px ;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    transition: transform .4s;
+    margin-top: 10px;
+    display: inline-block;
+}
+.btn-b-3:hover{
+    transform: scale(1.5);
+}
+/*  hire me section css  end ------- */
+
+/*  footer css start ----------------*/
+
+
+.footer{
+
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: #101010;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-text h5{
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 10px;
+}
+.footer-text p {
+    font-size: 17px;
+    color: whitesmoke;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.social-icon i {
+    font-size: 22px;
+    color: rgb(248, 248, 247);
+    background-color: #f90044;
+    padding: 10px ;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    transition: transform .4s;
+    margin-left: 10px;
+}
+.social-icon i:hover{
+    transform: scale(1.5);
+    background-color: rgb(18, 149, 201);
+    color: rgb(252, 254, 255);
+}
+
+
+.footer-reserve{
+    margin-top: 70px;
+    color:#f90044;
+    font-size: 25;
+}
+h6.footer-reserve {
+    font-size: 13px;
+}
+/*  footer css start ----------------*/
+
+
+
