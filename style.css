@@ -12,6 +12,9 @@
     text-decoration: none;
 
 }
+body{
+    overflow-x: hidden;
+}
 .container{
     width: 1280px;
     margin: auto;
